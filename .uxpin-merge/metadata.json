@@ -215,6 +215,482 @@
             }
           ],
           "wrappers": []
+        },
+        {
+          "defaultExported": true,
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/components/CardM",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/components/CardM/CardM.js"
+            },
+            "presets": [
+              {
+                "path": "src/components/CardM/presets/0-default.jsx"
+              }
+            ]
+          },
+          "name": "CardM",
+          "presets": [
+            {
+              "elements": {
+                "cardM1": {
+                  "name": "CardM",
+                  "props": {
+                    "btnSize": "small",
+                    "color1": "textSecondary",
+                    "color3": "textSecondary",
+                    "component2": "h2",
+                    "component3": "p",
+                    "disabled": false,
+                    "variant2": "h5",
+                    "variant3": "body2"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "cardM1"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "color1",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "initial"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "inherit"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "primary"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "secondary"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "textPrimary"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "textSecondary"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "error"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "color2",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "initial"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "inherit"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "primary"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "secondary"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "textPrimary"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "textSecondary"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "error"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "color3",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "initial"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "inherit"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "primary"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "secondary"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "textPrimary"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "textSecondary"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "error"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "variant2",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "h1"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "h2"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "h3"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "h4"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "h5"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "h6"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "subtitle1"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "subtitle2"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "body1"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "body2"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "caption"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "button"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "overline"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "srOnly"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "inherit"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "variant3",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "h1"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "h2"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "h3"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "h4"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "h5"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "h6"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "subtitle1"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "subtitle2"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "body1"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "body2"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "caption"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "button"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "overline"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "srOnly"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "inherit"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "component2",
+              "type": {
+                "name": "elementType",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "component3",
+              "type": {
+                "name": "elementType",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "gutterBottom",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "btnSize",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "small"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "medium"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "large"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            }
+          ],
+          "wrappers": []
         }
       ],
       "name": "General"
@@ -223,7 +699,7 @@
   "name": "UXPin Merge Boilerplate",
   "vcs": {
     "branchName": "master",
-    "commitHash": "1f99ee90e8ef9ddd19f5c72a133bd708c9127992",
+    "commitHash": "7bb3ef2d2aa68c0009ffb3e3e26bb6f563129f55",
     "paths": {
       "configPath": "/Users/evantrujillo/Documents/coding/work/Evans-Library/uxpin.config.js",
       "projectRoot": "/Users/evantrujillo/Documents/coding/work/Evans-Library"
