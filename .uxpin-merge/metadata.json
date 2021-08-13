@@ -66,6 +66,155 @@
             }
           ],
           "wrappers": []
+        },
+        {
+          "defaultExported": true,
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/components/ButtonM",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/components/ButtonM/ButtonM.js"
+            },
+            "presets": [
+              {
+                "path": "src/components/ButtonM/presets/0-default.jsx"
+              }
+            ]
+          },
+          "name": "ButtonM",
+          "presets": [
+            {
+              "elements": {
+                "buttonM1": {
+                  "name": "ButtonM",
+                  "props": {
+                    "children": "test buttonM",
+                    "disabled": true
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "buttonM1"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onClick",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "variant",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "contained"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "outlined"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "text"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "color",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "primary"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "secondary"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "size",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "small"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "medium"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "large"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "wrappers": []
         }
       ],
       "name": "General"
@@ -74,7 +223,7 @@
   "name": "UXPin Merge Boilerplate",
   "vcs": {
     "branchName": "master",
-    "commitHash": "cc0ccc4d2931db15ce0081056f075e271c6e6d27",
+    "commitHash": "1f99ee90e8ef9ddd19f5c72a133bd708c9127992",
     "paths": {
       "configPath": "/Users/evantrujillo/Documents/coding/work/Evans-Library/uxpin.config.js",
       "projectRoot": "/Users/evantrujillo/Documents/coding/work/Evans-Library"
