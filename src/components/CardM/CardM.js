@@ -14,7 +14,7 @@ function CardM(props) {
     <Card className={props.root}>
       <CardContent>
         <Typography className="title" color={props.color1} gutterBottom>
-          Word of the Day
+          Word of the Days
         </Typography>
         <Typography variant={props.variant2} component={props.component2}>
           be{bull}nev{bull}o{bull}lent

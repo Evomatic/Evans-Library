@@ -7,7 +7,8 @@ module.exports = {
             include: [
                 'src/components/Button/Button.js',
                 'src/components/ButtonM/ButtonM.js',
-                'src/components/CardM/CardM.js'
+                'src/components/CardM/CardM.js',
+                'src/components/CheckboxM/CheckboxM.js'
             ]
         }
       ],

@@ -1,12 +1,14 @@
 import Button from './components/Button/Button';
 import ButtonM from './components/ButtonM/ButtonM';
 import CardM from './components/CardM/CardM';
+import CheckboxM from './components/CheckboxM/CheckboxM';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Button 
+      <CheckboxM />
+      {/* <Button 
       disabled={true}
       label="test button"/>
       
@@ -22,7 +24,7 @@ function App() {
       variant3="body2"
       component3="p"
       btnSize="small"
-      >Learn More</CardM>
+      >Learn More</CardM> */}
     </div>
   );
 }
