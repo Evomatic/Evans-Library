@@ -1,4 +1,3 @@
-/* eslint-disable sort-keys */
 const path = require("path");
 const webpack = require("webpack");
 
@@ -22,30 +21,6 @@ module.exports = {
             loader: 'style-loader'
           },
           {
-            loader: require.resolve('babel-loader', { paths: ['./node_modules/@uxpin/merge-cli'] }),
-            options: {
-            presets: [
-            require.resolve('@babel/preset-env', { paths: ['./node_modules/@uxpin/merge-cli'] }),
-            require.resolve('@babel/preset-react', { paths: ['./node_modules/@uxpin/merge-cli'] })
-            ],
-          }
-          },
-          // {
-          //   test: /\.svg$/,
-          //   exclude: /node_modules/,
-          //   loader: 'svg-react-loader'
-          // },
-          // {
-          //   loader: "babel-loader",
-          //   test: /\.js?$/,
-          //   exclude: /node_modules/
-          // },
-          // { 
-          //   enforce: "pre", 
-          //   test: /\.js$/, 
-          //   loader: "source-map-loader" 
-          // },
-          {
             loader: 'css-loader',
             options: {
               importLoaders: 2
@@ -53,21 +28,17 @@ module.exports = {
           },
         ]
       },
-      
+      {
+        loader: require.resolve('babel-loader', { paths: ['./node_modules/@uxpin/merge-cli'] }),
+        test: /\.js?$/,
+        exclude: /node_modules/,
+        options: {
+          presets: [
+            require.resolve('@babel/preset-env', { paths: ['./node_modules/@uxpin/merge-cli'] }),
+            require.resolve('@babel/preset-react', { paths: ['./node_modules/@uxpin/merge-cli'] })
+          ],
+        }
+      },
     ]
   }
 }
-
-
-
-// {
-//   loader: require.resolve('babel-loader', { paths: ['./node_modules/@uxpin/merge-cli'] }),
-//   test: /\.js?$/,
-//   exclude: /node_modules/,
-//   options: {
-//     presets: [
-//       require.resolve('@babel/preset-env', { paths: ['./node_modules/@uxpin/merge-cli'] }),
-//       require.resolve('@babel/preset-react', { paths: ['./node_modules/@uxpin/merge-cli'] })
-//     ],
-//   }
-// },

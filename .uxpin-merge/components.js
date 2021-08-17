@@ -6,6 +6,7 @@ import CardM from '../src/components/CardM/CardM';
 import CheckboxM from '../src/components/CheckboxM/CheckboxM';
 import Icon from '../src/components/IconM/IconM';
 import Api from '../src/components/Api/Api';
+import Wrapper from '../src/components/UXPinWrapper/UXPinWrapper.js';
 export {
   Button,
   ButtonM,
@@ -13,6 +14,7 @@ export {
   CheckboxM,
   Icon,
   Api,
+  Wrapper,
   React,
   ReactDOM,
 };
