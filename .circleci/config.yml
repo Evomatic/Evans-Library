@@ -4,7 +4,7 @@ workflows:
   default:
     jobs:
       - build:
-          context: "Boilerplate library"
+          context: "Evans-Library"
 
 jobs:
   build:
@@ -17,11 +17,5 @@ jobs:
           name: 'Install dependencies'
           command: npm install
       - run:
-          name: 'Check'
-          command: npm run check
-      - run:
-          name: 'Test'
-          command: npm run test
-      - run:
           name: 'Push to UXPin'
-          command: npm run push
+          command: ./node_modules/@uxpin/merge-cli/bin/uxpin-merge push --webpack-config ./webpack.uxpin.config.js --wrapper ./src/UXPinWrapper/UXPinWrapper.js

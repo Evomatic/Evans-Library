@@ -1026,7 +1026,7 @@
   "name": "UXPin Merge Boilerplate",
   "vcs": {
     "branchName": "master",
-    "commitHash": "d487f6d2181ef03f5eda473a24eaec09ec5e9fb5",
+    "commitHash": "687c016b0eb9a51505d10c3aaa47c267d9775d30",
     "paths": {
       "configPath": "/Users/evantrujillo/Documents/coding/work/Evans-Library/uxpin.config.js",
       "projectRoot": "/Users/evantrujillo/Documents/coding/work/Evans-Library"
