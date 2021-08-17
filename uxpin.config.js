@@ -17,5 +17,5 @@ module.exports = {
       
       webpackConfig: './webpack.uxpin.config.js',
     },
-    name: 'UXPin Merge Boilerplate',
+    name: 'Evans-Library',
   };
