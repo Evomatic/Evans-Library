@@ -1,11 +1,4 @@
 version: 2.1
-
-workflows:
-  default:
-    jobs:
-      - build:
-          context: "Evans-Library"
-
 jobs:
   build:
     docker:
