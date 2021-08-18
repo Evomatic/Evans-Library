@@ -1026,7 +1026,7 @@
   "name": "Evans-Library",
   "vcs": {
     "branchName": "master",
-    "commitHash": "602685726c5fa8457ee41675dedaf10abbae8a52",
+    "commitHash": "fdc4a3793538e758312747af3a41ebd53140fa0d",
     "paths": {
       "configPath": "/Users/evantrujillo/Documents/coding/work/Evans-Library/uxpin.config.js",
       "projectRoot": "/Users/evantrujillo/Documents/coding/work/Evans-Library"
