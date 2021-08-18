@@ -9,7 +9,7 @@ module.exports = {
                 'src/components/ButtonM/ButtonM.js',
                 'src/components/CardM/CardM.js',
                 'src/components/CheckboxM/CheckboxM.js',
-                'src/components/IconM/IconM.js',
+                // 'src/components/IconM/IconM.js',
                 'src/components/Api/Api.js'
             ]
         }
