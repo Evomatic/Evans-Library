@@ -8,27 +8,26 @@
             "examples": []
           },
           "info": {
-            "dirPath": "src/components/Button",
+            "dirPath": "src/WebComponents/ButtonM",
             "implementation": {
               "framework": "reactjs",
               "lang": "javascript",
-              "path": "src/components/Button/Button.js"
+              "path": "src/WebComponents/ButtonM/ButtonM.js"
             },
             "presets": [
               {
-                "path": "src/components/Button/presets/0-default.jsx"
+                "path": "src/WebComponents/ButtonM/presets/0-default.jsx"
               }
             ]
           },
-          "name": "Button",
+          "name": "ButtonM",
           "presets": [
             {
               "elements": {
                 "button1": {
-                  "name": "Button",
+                  "name": "ButtonM",
                   "props": {
-                    "disabled": true,
-                    "label": "test button"
+                    "label": "Let's Merge!"
                   }
                 }
               },
@@ -63,67 +62,11 @@
                 "name": "string",
                 "structure": {}
               }
-            }
-          ],
-          "wrappers": []
-        },
-        {
-          "defaultExported": true,
-          "documentation": {
-            "examples": []
-          },
-          "info": {
-            "dirPath": "src/components/ButtonM",
-            "implementation": {
-              "framework": "reactjs",
-              "lang": "javascript",
-              "path": "src/components/ButtonM/ButtonM.js"
-            },
-            "presets": [
-              {
-                "path": "src/components/ButtonM/presets/0-default.jsx"
-              }
-            ]
-          },
-          "name": "ButtonM",
-          "presets": [
-            {
-              "elements": {
-                "buttonM1": {
-                  "name": "ButtonM",
-                  "props": {
-                    "children": "test buttonM",
-                    "disabled": true
-                  }
-                }
-              },
-              "name": "default",
-              "rootId": "buttonM1"
-            }
-          ],
-          "properties": [
-            {
-              "description": "",
-              "isRequired": false,
-              "name": "onClick",
-              "type": {
-                "name": "func",
-                "structure": {}
-              }
             },
             {
               "description": "",
               "isRequired": false,
-              "name": "disabled",
-              "type": {
-                "name": "boolean",
-                "structure": {}
-              }
-            },
-            {
-              "description": "",
-              "isRequired": false,
-              "name": "variant",
+              "name": "type",
               "type": {
                 "name": "union",
                 "structure": {
@@ -131,19 +74,67 @@
                     {
                       "name": "literal",
                       "structure": {
-                        "value": "contained"
+                        "value": "primary"
                       }
                     },
                     {
                       "name": "literal",
                       "structure": {
-                        "value": "outlined"
+                        "value": "secondary"
                       }
                     },
                     {
                       "name": "literal",
                       "structure": {
-                        "value": "text"
+                        "value": "success"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "error"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "warning"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "mode",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "filled"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ghost"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "minimal"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "flat"
                       }
                     }
                   ]
@@ -155,6 +146,54 @@
               "isRequired": false,
               "name": "children",
               "type": {
+                "name": "string",
+                "structure": {}
+              }
+            }
+          ],
+          "wrappers": []
+        },
+        {
+          "defaultExported": true,
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/WebComponents/ProductCardM",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/WebComponents/ProductCardM/ProductCardM.js"
+            },
+            "presets": [
+              {
+                "path": "src/WebComponents/ProductCardM/presets/0-default.jsx"
+              }
+            ]
+          },
+          "name": "ProductCardM",
+          "presets": [
+            {
+              "elements": {
+                "usercardm1": {
+                  "name": "ProductCardM",
+                  "props": {
+                    "img": "https://cdn.shopify.com/s/files/1/0186/3936/products/ArubaAloeSpecialCareLotion12.5oz_1024x1024.png?v=1604956728",
+                    "main": "Product Name",
+                    "subone": "$12.00"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "usercardm1"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "img",
+              "type": {
                 "name": "node",
                 "structure": {}
               }
@@ -162,553 +201,49 @@
             {
               "description": "",
               "isRequired": false,
-              "name": "color",
+              "name": "main",
               "type": {
-                "name": "union",
-                "structure": {
-                  "elements": [
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "primary"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "secondary"
-                      }
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              "description": "",
-              "isRequired": false,
-              "name": "size",
-              "type": {
-                "name": "union",
-                "structure": {
-                  "elements": [
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "small"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "medium"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "large"
-                      }
-                    }
-                  ]
-                }
-              }
-            }
-          ],
-          "wrappers": []
-        },
-        {
-          "defaultExported": true,
-          "documentation": {
-            "examples": []
-          },
-          "info": {
-            "dirPath": "src/components/CardM",
-            "implementation": {
-              "framework": "reactjs",
-              "lang": "javascript",
-              "path": "src/components/CardM/CardM.js"
-            },
-            "presets": [
-              {
-                "path": "src/components/CardM/presets/0-default.jsx"
-              }
-            ]
-          },
-          "name": "CardM",
-          "presets": [
-            {
-              "elements": {
-                "cardM1": {
-                  "name": "CardM",
-                  "props": {
-                    "btnSize": "small",
-                    "color1": "textSecondary",
-                    "color3": "textSecondary",
-                    "component2": "h2",
-                    "component3": "p",
-                    "disabled": false,
-                    "variant2": "h5",
-                    "variant3": "body2"
-                  }
-                }
-              },
-              "name": "default",
-              "rootId": "cardM1"
-            }
-          ],
-          "properties": [
-            {
-              "description": "",
-              "isRequired": false,
-              "name": "color1",
-              "type": {
-                "name": "union",
-                "structure": {
-                  "elements": [
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "initial"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "inherit"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "primary"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "secondary"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "textPrimary"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "textSecondary"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "error"
-                      }
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              "description": "",
-              "isRequired": false,
-              "name": "color2",
-              "type": {
-                "name": "union",
-                "structure": {
-                  "elements": [
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "initial"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "inherit"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "primary"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "secondary"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "textPrimary"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "textSecondary"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "error"
-                      }
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              "description": "",
-              "isRequired": false,
-              "name": "color3",
-              "type": {
-                "name": "union",
-                "structure": {
-                  "elements": [
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "initial"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "inherit"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "primary"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "secondary"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "textPrimary"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "textSecondary"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "error"
-                      }
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              "description": "",
-              "isRequired": false,
-              "name": "variant2",
-              "type": {
-                "name": "union",
-                "structure": {
-                  "elements": [
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "h1"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "h2"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "h3"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "h4"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "h5"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "h6"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "subtitle1"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "subtitle2"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "body1"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "body2"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "caption"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "button"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "overline"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "srOnly"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "inherit"
-                      }
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              "description": "",
-              "isRequired": false,
-              "name": "variant3",
-              "type": {
-                "name": "union",
-                "structure": {
-                  "elements": [
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "h1"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "h2"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "h3"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "h4"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "h5"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "h6"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "subtitle1"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "subtitle2"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "body1"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "body2"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "caption"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "button"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "overline"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "srOnly"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "inherit"
-                      }
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              "description": "",
-              "isRequired": false,
-              "name": "component2",
-              "type": {
-                "name": "elementType",
+                "name": "string",
                 "structure": {}
               }
             },
             {
               "description": "",
               "isRequired": false,
-              "name": "component3",
+              "name": "subone",
               "type": {
-                "name": "elementType",
+                "name": "string",
                 "structure": {}
               }
             },
             {
               "description": "",
               "isRequired": false,
-              "name": "gutterBottom",
+              "name": "buttoncolor",
               "type": {
-                "name": "boolean",
+                "name": "string",
                 "structure": {}
               }
             },
             {
               "description": "",
               "isRequired": false,
-              "name": "btnSize",
+              "name": "buttontextcolor",
               "type": {
-                "name": "union",
-                "structure": {
-                  "elements": [
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "small"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "medium"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "large"
-                      }
-                    }
-                  ]
-                }
+                "name": "string",
+                "structure": {}
               }
             },
             {
               "description": "",
               "isRequired": false,
-              "name": "disabled",
+              "name": "onclick",
               "type": {
-                "name": "boolean",
+                "name": "func",
                 "structure": {}
               }
             }
           ],
-          "wrappers": []
-        },
-        {
-          "defaultExported": true,
-          "documentation": {
-            "examples": []
-          },
-          "info": {
-            "dirPath": "src/components/Api",
-            "implementation": {
-              "framework": "reactjs",
-              "lang": "javascript",
-              "path": "src/components/Api/Api.js"
-            },
-            "presets": []
-          },
-          "name": "Api",
-          "presets": [],
-          "properties": [],
           "wrappers": []
         }
       ],
@@ -718,7 +253,7 @@
   "name": "Evans-Library",
   "vcs": {
     "branchName": "master",
-    "commitHash": "f515b1fe89cc56b16334a80f41d87896f98eacf0",
+    "commitHash": "60b77a56d42ca9cdb7039518a02174b548a81b4c",
     "paths": {
       "configPath": "/Users/evantrujillo/Documents/coding/work/Evans-Library/uxpin.config.js",
       "projectRoot": "/Users/evantrujillo/Documents/coding/work/Evans-Library"

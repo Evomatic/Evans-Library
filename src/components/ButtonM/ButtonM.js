@@ -4,16 +4,11 @@ import PropTypes from 'prop-types';
 
 
  function ButtonM(props) {
-  
-
   return (
-    <div className="containerButton">
       <Button {...props}>
                   
         {props.children}
       </Button>
-      
-    </div>
   );
 }
 

@@ -5,12 +5,15 @@ module.exports = {
         {
             name: 'General',
             include: [
-                'src/components/Button/Button.js',
+                // 'src/WebComponents/ButtonM/ButtonM.js',
+                // 'src/WebComponents/ProductCardM/ProductCardM.js',
                 'src/components/ButtonM/ButtonM.js',
                 'src/components/CardM/CardM.js',
-                // 'src/components/CheckboxM/CheckboxM.js',
-                // 'src/components/IconM/IconM.js',
-                'src/components/Api/Api.js'
+                'src/components/CheckboxM/CheckboxM.js',
+                'src/components/IconM/IconM.js',
+                'src/components/Api/Api.js',
+                'src/components/ButtonGroups/ButtonGroups.js',
+                'src/components/SampleButton/SampleButton.js'
             ]
         }
       ],
@@ -19,3 +22,7 @@ module.exports = {
     },
     name: 'Evans-Library',
   };
+
+
+
+  58956486b9a13456e33857c44f0b54833cedffb0

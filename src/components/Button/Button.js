@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function Button(props) {
     return (
-        <button
+        <button {...props}
             onClick={props.onClick}
             disabled={props.disabled}
         >
@@ -21,3 +21,4 @@ Button.propTypes = {
 
 
 export default Button;
+
