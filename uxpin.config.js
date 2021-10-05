@@ -6,7 +6,7 @@ module.exports = {
             name: 'General',
             include: [
                 'src/components/ButtonGroups/ButtonGroups.js',
-                'src/components/CheckboxM/CheckboxM.js',
+                //'src/components/CheckboxM/CheckboxM.js',
                 'src/components/IconM/IconM.js',
                 'src/components/Button/Button.js',
                 'src/components/ButtonM/ButtonM.js',
@@ -19,8 +19,8 @@ module.exports = {
         {
           name: 'Web',
           include: [
-              'src/WebComponents/ButtonM/ButtonM.js',
-              'src/WebComponents/ProductCardM/ProductCardM.js',
+              //'src/WebComponents/ButtonM/ButtonM.js',
+              //'src/WebComponents/ProductCardM/ProductCardM.js',
           ]
       }
       ],
