@@ -1,11 +1,15 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import ButtonGroups from '../src/components/ButtonGroups/ButtonGroups';
+import Icon from '../src/components/IconM/IconM';
 import Button from '../src/components/Button/Button';
 import ButtonM from '../src/components/ButtonM/ButtonM';
 import CardM from '../src/components/CardM/CardM';
 import Api from '../src/components/Api/Api';
 import Wrapper from '../src/components/Wrapper/UXPinWrapper.js';
 export {
+  ButtonGroups,
+  Icon,
   Button,
   ButtonM,
   CardM,
